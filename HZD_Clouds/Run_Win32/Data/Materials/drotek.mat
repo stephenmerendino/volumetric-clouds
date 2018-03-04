@@ -1,0 +1,7 @@
+<material>
+    <shader src="Data/Shaders/nop_texture.shader" />
+
+    <diffuse src="Data/FBX/Drotek/Drotek_DFS.png" />
+    <normal src="Data/FBX/Drotek/Drotek_NRM.png" />
+    <spec src="Data/FBX/Drotek/Drotek_SPC.png" />
+</material>

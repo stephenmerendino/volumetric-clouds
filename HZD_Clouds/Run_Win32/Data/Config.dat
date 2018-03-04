@@ -1,0 +1,67 @@
+# Config Settings
+# Saved on 07/20/17 @ 01:02:34 AM
+
+
+# [STRINGS]
+"commandLine" = "working"
+"config_autosave_filepath" = "Data/Config.dat.autosave"
+"difficulty" = "hard"
+"level" = "a1e1.dgn"
+"player_name" = "Bobby Joe"
+"test_image" = "some/image/path.jpg"
+"windowTitle" = "AES"
+"window_title" = "SD3 Assignment 01 : Setup"
+
+
+# [BOOLS]
+fullscreen = true
+god = true
+limitFps = true
+sound = false
+test_bool = false
+
+
+# [INTS]
+base_fbm_worley_scale = 3
+base_perlin_num_octaves = 1
+base_worley_num_octaves = 3
+detail_worley_num_octaves = 3
+fps = 60
+resolutionHeight = 900
+resolutionWidth = 1600
+window_res_x = 1280
+window_res_y = 720
+
+
+# [FLOATS]
+base_fbm_worley_octave_persistence = 0.573296
+base_fbm_worley_octave_scale = 2.022410
+base_perlin_octave_persistence = 2.074697
+base_perlin_octave_scale = 0.715220
+base_perlin_scale = 40.499531
+base_worley_octave_persistence = 0.580766
+base_worley_octave_scale = 2.044818
+base_worley_one_scale = 0.062325
+base_worley_scale = 0.085434
+base_worley_three_scale = 0.219188
+base_worley_two_scale = 0.140756
+cloud_coverage = 0.554155
+cloud_detail_scale = 0.000724
+cloud_layer_bottom_y = 1500.0
+cloud_layer_top_y = 4000.0
+cloud_light_step_size = 1295.518433
+cloud_sample_scale = 0.000065
+detail_worley_octave_peristence = 0.500000
+detail_worley_octave_scale = 2.000000
+detail_worley_one_scale = 0.219423
+detail_worley_three_scale = 0.658270
+detail_worley_two_scale = 0.513542
+fov = 60.000000
+generation_xyz_scale = 2.530346
+generation_z_scale = 63.235298
+master_volume = 0.500000
+time_multiplier = 2.500000
+
+
+# [COLORS]
+clearColor = <0, 39, 54, 255>

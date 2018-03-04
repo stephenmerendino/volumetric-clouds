@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{df5c57c1-fb37-4c41-844f-eb66a69bcba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{4a247026-3864-477f-b477-d7c28218f73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{06b32e74-2a39-49bb-90b0-1665018c7356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{537dfd30-d02d-4088-9d87-b8e58b0a9529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{750b0a45-06ea-4fee-8ae3-9e7760306044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RHI">
+      <UniqueIdentifier>{47444d5b-b1ae-425b-90f7-a3973e62781b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{fdbb34e6-f52e-4228-958e-f036dc9b5730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RHI\Shader">
+      <UniqueIdentifier>{5dd1dc48-4fdd-49eb-8d99-a2343c1262c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{e208b6df-975e-45d0-ba03-87f3d538d4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Meshes">
+      <UniqueIdentifier>{68ef6b11-d799-469c-8704-b12438aec99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\fmod">
+      <UniqueIdentifier>{6413076d-60b3-4c72-a47b-a066b62e21cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\gl">
+      <UniqueIdentifier>{4e0359e3-1dd3-4a9d-9a21-eef97197125e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\mikkt">
+      <UniqueIdentifier>{2db88ba5-b0b1-418d-94c1-566bcf6eff07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\stb">
+      <UniqueIdentifier>{32f7fef7-1f23-4b6c-a1cf-6098eb3b8729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\xml">
+      <UniqueIdentifier>{52536011-1735-49e4-b535-a475e4f2311d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{92a360c4-b425-4d08-a969-47b01277486a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile">
+      <UniqueIdentifier>{c36afa3f-0508-40b4-afe1-d4156a367226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{6610e56f-cb9d-4627-99cd-0619dd0d1d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{f1ddb997-64e7-4a8a-8177-17b4cfdd367d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{bac6b649-d600-41cf-abf6-0eab42b9d683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\TCP">
+      <UniqueIdentifier>{cbd82279-096f-45f5-bb2f-b72ebe02136e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\Object">
+      <UniqueIdentifier>{f736e393-2d69-4bb9-8188-b1c93f833207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net\UDP">
+      <UniqueIdentifier>{2e6795ae-54cd-47dc-ace1-69f75179afd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\ErrorWarningAssert.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Rgba.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\XboxController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Disc2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LineSegment2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Texture.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Vertex2.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteSheet.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Sphere3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LineSegment3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteAnim.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Image.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitmapFont.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\EasingFuncs.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FileUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Noise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\OpenGLExtensions.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Window.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHIInstance.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHIDevice.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHIDeviceContext.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHIOutput.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHITexture2D.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Config.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Display.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHI.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SimpleRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\VertexBuffer.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\IndexBuffer.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\Sampler.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\DX11.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RasterState.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ConstantBuffer.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Font.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\BlendState.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\DepthStencilState.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CubeMap.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ShaderStage.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\VertexShaderStage.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\FragmentShaderStage.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ShaderProgram.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\Shader.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Material.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderable.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderableMesh.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\fbx.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Console.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Renderer\Mesh.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\MeshBuilder.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SceneMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\QuadMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CubeMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SphereMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SurfacePatchMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\TextMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MatrixStack.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\mikkt\mikktspace.c">
+      <Filter>Third Party\mikkt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\stb\stb_image.c">
+      <Filter>Third Party\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\XMLParser\XMLParser.cpp">
+      <Filter>Third Party\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\xml.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\LineMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BoxMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CircleMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Skeleton.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SkeletonMeshes.cpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Motion.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SkeletonInstance.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\StructuredBuffer.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\UIntVector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\BinaryStream.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FileBinaryStream.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\profiler_visualizer.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Common.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\callstack.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\random.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHITexture3D.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\thread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\log.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\signal.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\critical_section.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\profiler.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\mem_tracker.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\auto_profile_log_scope.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\auto_profile_scope.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\profiler_report.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\thread_profile.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\block_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\thread_safe_block_allocator.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\GeometryShaderStage.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHITextureBase.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\job.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SkeletalTransformHierarchy.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\transform.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\FloatRange.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ComputeShader.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ComputeShaderStage.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\ComputeJob.cpp">
+      <Filter>RHI\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RHI\RHITexture1D.cpp">
+      <Filter>RHI</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\gpu_profile.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\net.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\net_address.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\message.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\message_definition.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\session.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\TCP\tcp_socket.cpp">
+      <Filter>Net\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\TCP\tcp_connection.cpp">
+      <Filter>Net\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\loopback_connection.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\TCP\tcp_session.cpp">
+      <Filter>Net\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\connection.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\remote_command_service.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\process.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Object\net_object_system.cpp">
+      <Filter>Net\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Object\net_object.cpp">
+      <Filter>Net\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\Object\net_object_type_definition.cpp">
+      <Filter>Net\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\interval.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\bit_packer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UDP\udp_connection.cpp">
+      <Filter>Net\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UDP\udp_session.cpp">
+      <Filter>Net\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UDP\udp_socket.cpp">
+      <Filter>Net\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\net_packet.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\scene.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\midi.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UDP\packet_channel.cpp">
+      <Filter>Net\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\cycle.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\UDP\packet_tracker.cpp">
+      <Filter>Net\UDP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\ErrorWarningAssert.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Rgba.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Time.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\XboxController.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Disc2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LineSegment2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Texture.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Vertex2.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteSheet.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.hpp">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Sphere3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LineSegment3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVector3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteAnim.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Image.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitmapFont.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\EasingFuncs.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Vertex3.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FileUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Noise.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\OpenGLExtensions.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane3.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Window.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHIInstance.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHI.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHITypes.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\DX11.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHIDevice.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHIDeviceContext.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHIOutput.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHITexture2D.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Config.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Display.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SimpleRenderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\VertexBuffer.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\IndexBuffer.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\Sampler.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RasterState.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ConstantBuffer.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Font.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\BlendState.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Common.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\DepthStencilState.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CubeMap.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\InlineShaders.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ShaderStage.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\VertexShaderStage.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\FragmentShaderStage.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ShaderProgram.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\Shader.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Material.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderable.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderableMesh.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\fbx.hpp">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Console.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.hpp" />
+    <ClInclude Include="Renderer\Mesh.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MeshBuilder.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SceneMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\QuadMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CubeMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SphereMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SurfacePatchMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\TextMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MatrixStack.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.hpp">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_codec.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_errors.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_memoryinfo.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_output.h">
+      <Filter>Third Party\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\gl\glext.h">
+      <Filter>Third Party\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\gl\wglext.h">
+      <Filter>Third Party\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\mikkt\mikktspace.h">
+      <Filter>Third Party\mikkt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image.h">
+      <Filter>Third Party\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\XMLParser\XMLParser.hpp">
+      <Filter>Third Party\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\xml.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\LineMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BoxMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CircleMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Skeleton.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SkeletonMeshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Meshes.hpp">
+      <Filter>Renderer\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Pose.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Motion.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SkeletonInstance.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\StructuredBuffer.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\UIntVector4.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DataDrivenDefinition.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BinaryStream.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FileBinaryStream.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\build_config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\profiler_visualizer.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\callstack.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\random.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHITexture3D.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\thread_safe_queue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\log.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\signal.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\event.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\critical_section.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\profiler.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\mem_tracker.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\auto_profile_log_scope.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\auto_profile_scope.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\profiler_report.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\thread_profile.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\untracked_thread_safe_queue.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\EngineConfig.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\base_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\block_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\thread_safe_block_allocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\GeometryShaderStage.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHITextureBase.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\job.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\atomic.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SkeletalTransformHierarchy.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\transform.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\FloatRange.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ComputeShader.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ComputeShaderStage.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\ComputeJob.hpp">
+      <Filter>RHI\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RHI\RHITexture1D.hpp">
+      <Filter>RHI</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\gpu_profile.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\net.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\net_address.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\message.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\message_definition.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\session.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\TCP\tcp_socket.hpp">
+      <Filter>Net\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\TCP\tcp_connection.hpp">
+      <Filter>Net\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\loopback_connection.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\TCP\tcp_session.hpp">
+      <Filter>Net\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\connection.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\remote_command_service.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\process.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Object\net_object_system.hpp">
+      <Filter>Net\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Object\net_object.hpp">
+      <Filter>Net\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\Object\net_object_type_definition.hpp">
+      <Filter>Net\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\interval.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\bit_packer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\bit.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UDP\udp_connection.hpp">
+      <Filter>Net\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UDP\udp_session.hpp">
+      <Filter>Net\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UDP\udp_socket.hpp">
+      <Filter>Net\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\net_packet.hpp">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\scene.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\midi.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UDP\packet_channel.hpp">
+      <Filter>Net\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\cycle.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\UDP\packet_tracker.h">
+      <Filter>Net\UDP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\ThirdParty\fmod\fmodex_vc.lib">
+      <Filter>Third Party\fmod</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
